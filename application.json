@@ -11,6 +11,10 @@
     {
       "id": "高考班级管理",
       "isDefault": false
+    },
+    {
+      "id": "高考信息查询",
+      "isDefault": false
     }
   ],
   "viewMode": false,
