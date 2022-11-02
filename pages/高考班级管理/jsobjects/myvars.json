@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "高考班级管理",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tschool_year: \"2022-2023\",\n\tmygrade: [\n  {\n    \"label\": \"高一\",\n    \"value\": \"高一\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"高二\"\n  },\n  {\n    \"label\": \"高三\",\n    \"value\": \"高三\"\n  }\n],\n\tmylogin: async () => {\n\t\tawait user.run();\n\t\tif(user.data.length > 0){\n\t\t\tif(user.data[0].password === Input2.text){\n\t\t\t\tawait storeValue(\"class\",user.data[0][\"class\"]);\n\t\t\t\tFindQuery.run();\n\t\t\t\tstoreValue(\"mytab\",\"Tab2\");\n\t\t\t}\n\t\t\telse{\n\t\t\t\tshowAlert(\"密码错误！\");\n\t\t\t}\n\t\t}\n\telse{\n\t\tshowAlert(\"用户名错误！\");\n\t}\n\t\t}\n}",
+    "variables": [
+      {
+        "name": "school_year",
+        "value": "\"2022-2023\""
+      },
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}]"
+      }
+    ]
+  },
+  "id": "高考班级管理_myvars",
+  "deleted": false,
+  "gitSyncId": "6361bcc0f25cfd60a88d6ce4_6361bcc1f25cfd60a88d6d40"
+}

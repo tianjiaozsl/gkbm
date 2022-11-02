@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "id": "高考管理",
+      "isDefault": true
+    },
+    {
+      "id": "高考报名",
+      "isDefault": false
+    },
+    {
+      "id": "高考班级管理",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62f8bbdf29672c1ac253500d",
+  "color": "#C2DAF0",
+  "icon": "snowy-weather",
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}
