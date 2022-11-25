@@ -7,7 +7,8 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\tfindSsn : async () => {\n\t\tawait FindQuery.run();\n\t\tif(FindQuery.data.length==0){\n\t\t\tstoreValue('showtext','你还没有注册，请注册！');\n\t\t}\n\t\telse{\n\t\t\tstoreValue('showtext','你已经注册，可以修改！');\n\t\t}\n\t\tstoreValue('show',true);\n\t\t}\n\t\t}\n",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "高考报名_myvars",
   "deleted": false,

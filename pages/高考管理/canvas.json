@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 67,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -386,7 +386,8 @@
                           "label": "身份证",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ssn\"]))}}"
+                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ssn\"]))}}",
+                          "validation": {}
                         },
                         "class": {
                           "allowCellWrapping": false,
@@ -410,7 +411,8 @@
                           "label": "班级",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}"
+                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}",
+                          "validation": {}
                         },
                         "sex": {
                           "allowCellWrapping": false,
@@ -434,7 +436,8 @@
                           "label": "性别",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sex\"]))}}"
+                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sex\"]))}}",
+                          "validation": {}
                         },
                         "name": {
                           "allowCellWrapping": false,
@@ -458,7 +461,8 @@
                           "label": "姓名",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}"
+                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                          "validation": {}
                         },
                         "_id": {
                           "allowCellWrapping": false,
@@ -482,7 +486,8 @@
                           "label": "_id",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}"
+                          "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}",
+                          "validation": {}
                         },
                         "zxjh": {
                           "allowCellWrapping": false,
@@ -508,7 +513,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zxjh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "zzdhh": {
                           "allowCellWrapping": false,
@@ -534,7 +540,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zzdhh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "bmxh": {
                           "allowCellWrapping": false,
@@ -560,7 +567,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bmxh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "zzmm": {
                           "allowCellWrapping": false,
@@ -586,7 +594,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zzmm\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "dzxjh": {
                           "allowCellWrapping": false,
@@ -612,7 +621,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dzxjh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "xkkjh": {
                           "allowCellWrapping": false,
@@ -638,7 +648,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"xkkjh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "kstz": {
                           "allowCellWrapping": false,
@@ -664,7 +675,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"kstz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "kelei": {
                           "allowCellWrapping": false,
@@ -690,7 +702,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"kelei\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hjh": {
                           "allowCellWrapping": false,
@@ -716,7 +729,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hjh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "kslb": {
                           "allowCellWrapping": false,
@@ -742,7 +756,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"kslb\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "mz": {
                           "allowCellWrapping": false,
@@ -768,7 +783,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "xjsfmsn": {
                           "allowCellWrapping": false,
@@ -794,7 +810,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"xjsfmsn\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hkzz": {
                           "allowCellWrapping": false,
@@ -820,7 +837,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hkzz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hjxz": {
                           "allowCellWrapping": false,
@@ -846,7 +864,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hjxz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "wyyz": {
                           "allowCellWrapping": false,
@@ -872,7 +891,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wyyz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hsyhdqrbx": {
                           "allowCellWrapping": false,
@@ -898,7 +918,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hsyhdqrbx\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hzxm": {
                           "allowCellWrapping": false,
@@ -924,7 +945,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hzxm\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "byxx": {
                           "allowCellWrapping": false,
@@ -950,7 +972,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"byxx\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hjsfmsn": {
                           "allowCellWrapping": false,
@@ -976,7 +999,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hjsfmsn\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "xz": {
                           "allowCellWrapping": false,
@@ -1002,7 +1026,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"xz\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "hjszpcs": {
                           "allowCellWrapping": false,
@@ -1028,7 +1053,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"hjszpcs\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "xzqk": {
                           "allowCellWrapping": false,
@@ -1054,7 +1080,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"xzqk\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "gkfs": {
                           "allowCellWrapping": false,
@@ -1080,7 +1107,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gkfs\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         },
                         "gkzkzh": {
                           "allowCellWrapping": false,
@@ -1106,7 +1134,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gkzkzh\"]))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "validation": {}
                         }
                       },
                       "key": "7v8rr8t8uq",
@@ -4044,6 +4073,7 @@
           ]
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "高考管理",
         "deleted": false,

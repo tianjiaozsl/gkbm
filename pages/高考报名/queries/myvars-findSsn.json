@@ -23,6 +23,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "async () => {\n  await FindQuery.run();\n  if (FindQuery.data.length == 0) {\n    storeValue('showtext', '你还没有注册，请注册！');\n  } else {\n    storeValue('showtext', '你已经注册，可以修改！');\n  }\n  storeValue('show', true);\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

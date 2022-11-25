@@ -16,7 +16,8 @@
         "name": "mygrade",
         "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}]"
       }
-    ]
+    ],
+    "userPermissions": []
   },
   "id": "高考班级管理_myvars",
   "deleted": false,

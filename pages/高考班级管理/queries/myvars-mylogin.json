@@ -23,6 +23,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "async () => {\n  await user.run();\n  if (user.data.length > 0) {\n    if (user.data[0].password === Input2.text) {\n      await storeValue(\"class\", user.data[0][\"class\"]);\n      FindQuery.run();\n      storeValue(\"mytab\", \"Tab2\");\n    } else {\n      showAlert(\"密码错误！\");\n    }\n  } else {\n    showAlert(\"用户名错误！\");\n  }\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
