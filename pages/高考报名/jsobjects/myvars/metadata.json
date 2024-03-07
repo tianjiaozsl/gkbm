@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "高考报名",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "高考报名_myvars",
+  "deleted": false,
+  "gitSyncId": "6361bcc0f25cfd60a88d6ce4_6361bcc1f25cfd60a88d6d51"
+}

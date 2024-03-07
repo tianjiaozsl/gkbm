@@ -1,0 +1,3 @@
+SELECT class as 班级,count(*) as 人数 FROM gkbm
+GROUP by class
+ORDER by class *1 ;

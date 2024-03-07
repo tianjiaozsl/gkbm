@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "高考管理",
+      "isDefault": true
+    },
+    {
+      "id": "高考报名",
+      "isDefault": false
+    },
+    {
+      "id": "高考班级管理",
+      "isDefault": false
+    },
+    {
+      "id": "高考信息查询",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62f8bbdf29672c1ac253500d",
+  "color": "#C2DAF0",
+  "icon": "snowy-weather",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,5 @@
+SELECT
+id,bmxh as '报名序号',class as '班级',name as '姓名',kelei as '科类',ssn as '身份证号',sex as '性别',zzmm as '政治面貌',hjxz as '户籍性质',kslb as '考生类别',zxjh as '专项计划',kstz as '考生特征',byxx as '毕业学校',zzdhh as '纸质档案号',dzxjh as '电子学籍号',xkkjh as '学考考籍号',gkzkzh as '高考准考证号',gkfs as '高考分数',hjh as '户籍号',xz as '乡镇',hjszpcs as '户籍所在派出所',hzxm as '户主姓名',hkzz as '户口住址',mz as '民族',hsyhdqrbx as '何时于何地迁入本县',xzqk as '休转情况',wyyz as '外语语种',hjsfmsn as '户籍是否满三年',xjsfmsn as '学籍是否满三年'
+
+FROM gkbm WHERE class = {{appsmith.store.class}}
+ORDER by 报名序号;

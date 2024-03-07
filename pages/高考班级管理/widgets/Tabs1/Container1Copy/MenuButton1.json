@@ -1,0 +1,74 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "widgetName": "MenuButton1",
+    "dynamicPropertyPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItemp5x9wrkp2o.onClick"},
+        {"key": "menuItems.menuItembshuecj3l9.onClick"}
+    ],
+    "displayName": "Menu Button",
+    "iconSVG": "/static/media/icon.0341d17d67020c8bfc560cc5928af2a7.svg",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 11.72265625,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItemp5x9wrkp2o.onClick"},
+        {"key": "menuItems.menuItem2yjifkf6ls.onClick"}
+    ],
+    "leftColumn": 48,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "99yfxxb76d",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "menuVariant": "PRIMARY",
+    "widgetId": "yhd4il91ym",
+    "menuItems": {
+        "menuItem2yjifkf6ls": {
+            "onClick": "{{showModal('Edit_Modal')}}",
+            "widgetId": "smtaztx2sb",
+            "index": 1,
+            "id": "menuItem2yjifkf6ls",
+            "label": "编辑选中学生",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItemp5x9wrkp2o": {
+            "onClick": "{{storeValue('mytab','Tab1');storeValue('grade',\"\");storeValue('class',\"\")}}",
+            "widgetId": "k2hfiun0dv",
+            "index": 2,
+            "id": "menuItemp5x9wrkp2o",
+            "label": "退出登录",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem2": {
+            "onClick": "{{FindQuery.run()}}",
+            "widgetId": "",
+            "index": 0,
+            "label": "刷新数据",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": "操作",
+    "version": 1,
+    "parentId": "liyk6fwre6",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "menuItemsSource": "STATIC",
+    "placement": "CENTER"
+}

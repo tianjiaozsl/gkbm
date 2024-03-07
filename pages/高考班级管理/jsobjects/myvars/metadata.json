@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "高考班级管理",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "school_year",
+        "value": "\"2022-2023\""
+      },
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "高考班级管理_myvars",
+  "deleted": false,
+  "gitSyncId": "6361bcc0f25cfd60a88d6ce4_6361bcc1f25cfd60a88d6d40"
+}

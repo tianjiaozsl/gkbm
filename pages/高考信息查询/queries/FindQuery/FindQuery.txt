@@ -1,0 +1,1 @@
+SELECT * FROM gkbm WHERE ssn = {{Input1.text}};
